@@ -10,7 +10,7 @@ const typography = new Typography({
       styles: [
         '100',
         '300',
-        '800',
+        '700'
       ],
     }
     ],

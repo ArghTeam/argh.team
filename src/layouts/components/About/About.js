@@ -48,7 +48,7 @@ const Hello = styled.div`
 const HelloStrong = styled.strong`
   font-size: 4em;
   flex: 0 0 auto;
-  font-weight: 800;
+  font-weight: 700;
   margin-right: 0.2em;
   margin-top: 0.3em;
   display: block;
@@ -67,7 +67,7 @@ const Products = styled.div`
 `
 const ProductsStrong = styled.strong`
   font-size: 4em;
-  font-weight: 800;
+  font-weight: 700;
   display: block;
   margin-top: 0.2em;
   line-height: 0.7;
