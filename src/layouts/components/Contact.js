@@ -15,7 +15,7 @@ const Container = styled.div`
 const Item = styled.div`
   padding: 0.2em 0.5em;
   // font-size: 1.2em;
-  font-weight: 200;
+  font-weight: 300;
   display: flex;
   align-items: center;
 `

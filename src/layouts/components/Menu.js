@@ -16,7 +16,7 @@ const Item = styled.li`
 `
 const NavLink = styled(Link)`
   font-size: ${(props) => props.large ? '1.25em' : '1em'};
-  font-weight: 100;
+  font-weight: 300;
   color: inherit;
   display: inline-block;
   padding: 0.5em 1em;

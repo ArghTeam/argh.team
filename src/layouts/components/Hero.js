@@ -17,7 +17,7 @@ const Logo = styled(SvgLogo)`
 const Tagline = styled.div`
   margin: 1em auto 0.2em;
   line-height: 1;
-  font-weight: 100;
+  font-weight: 300;
   text-transform: uppercase;
 `
 

@@ -12,6 +12,8 @@ const Body = styled.div`
   max-width: 960px;
   padding: 0px 1.0875rem 1.45rem;
   padding-top: 0;
+  position: relative;
+  z-index: 1;
 `
 const TemplateWrapper = ({
   children
@@ -27,9 +29,10 @@ const TemplateWrapper = ({
       <Header />
       <Hero />
       <About />
-      {/*<Body>*/}
+      <Body>
+      <h3>Woot</h3>
         {/*{children()}*/}
-      {/*</Body>*/}
+      </Body>
     </div>
   )
 

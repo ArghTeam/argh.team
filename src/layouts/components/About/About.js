@@ -1,6 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import PropTypes from 'prop-types'
+import backgroundImage from './arghbg.jpg'
 
 const productColor = '#ffff00';
 const productPadding = 0.3;
@@ -10,23 +11,32 @@ const lineHeight = fontSize;
 const Container = styled.div`
   margin: 4em 0;
   position: relative;
-  margin-bottom: -50%;
 
-  &:before,  &:after {
+  &:before {
     display: block;
     content: '';
     position: absolute;
-    height: 100%;
+    height: 200%;
     width: 100%;
-    background: url("data:image/svg+xml;utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' preserveAspectRatio='none' width='40' height='40' viewBox='0 0 40 40'%3E%3Cpolygon points='0 0, 40 40, 0 40' fill='hotpink'/%3E%3C/svg%3E");
-    background-size: 100% 100%;
+    background: url(https://images.unsplash.com/photo-1472808900176-aa74f96048c0?dpr=1&auto=format&fit=crop&w=1500&h=1000&q=80&cs=tinysrgb&crop=);
+    clip-path: polygon(0% 0%, 100% 50%, 0% 100%);
+    background-size: cover;
     left: 0;
     top: 0;
+    opacity: 0.8;
   }
   &:after {
-    transform: rotate(180deg);
-    top: 100%;
-  }
+    display: block;
+    content: '';
+    position: absolute;
+    height: 200%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    clip-path: polygon(0% 0%, 100% 50%, 0% 100%);
+    background: rgba(100,200,255, 1);
+    mix-blend-mode: darken;
+  }  
 `
 const Hello = styled.div`
   max-width: 700px;
@@ -47,7 +57,7 @@ const HelloBody = styled.div`
   flex: 1 1 60%;
   font-size: ${fontSize}em;
   line-height: ${lineHeight}em;
-  font-weight: 200;
+  font-weight: 300;
 `
 const Products = styled.div`
   max-width: 570px;
@@ -67,7 +77,7 @@ const ProductsBody = styled.div`
   display: inline;
   font-size: ${fontSize}em;
   line-height: ${lineHeight};
-  font-weight: 200;
+  font-weight: 300;
   padding: ${productPadding}em;
   padding-left: 0;
   padding-right: 0;
