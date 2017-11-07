@@ -8,13 +8,13 @@ const iconSize = '1.2em'
 
 const Container = styled.div`
   display: inline-flex;
-  margin: 0.5em auto;
+  margin: 1em auto;
   flex-wrap: wrap;
   justify-content: center;
 `
 const Item = styled.div`
   padding: 0.2em 0.5em;
-  // font-size: 1.2em;
+  font-size: 0.9em;
   font-weight: 300;
   display: flex;
   align-items: center;
@@ -36,9 +36,8 @@ const Link = styled.a`
 const Contact = () =>
 
       <Container className="vcard">
-        <Item>Contact<Link className='url' href="https://argh.team"><span className="org">Argh&nbsp;Team</span></Link>:</Item>
-        <Item><IconSkype/> <Link className='skype' href="skype:fedor.troitsky?chat">argh.team</Link></Item>
-        <Item><IconEmail/> <Link className='email' href="mailto:hello@argh.team">hello@argh.team</Link></Item>
+        <Item><Link className='url' href="https://argh.team"><span className="org">Argh.team&nbsp;OÜ</span>, <span className="address">Sepapaja 6, Tallinn 15551, Estonia</span></Link></Item>
+        <Item><IconEmail/> <Link className='email' href="mailto:hello@argh.team">welcome@argh.team</Link></Item>
       </Container>
 
 Contact.PropTypes = {

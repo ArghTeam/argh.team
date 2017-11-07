@@ -2,6 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 import PropTypes from 'prop-types'
 import backgroundImage from './arghbg.jpg'
+import FitText from 'react-fittext'
 
 const productColor = '#ffff00';
 const productPadding = 0.3;
@@ -92,19 +93,22 @@ const ProductsBody = styled.div`
 
 
 const About = () =>
-  <Container>
-    <Hello>
-      <HelloStrong>Hello,</HelloStrong>
-      <HelloBody><p>Argh is a salted crew of digital makers with experience in building products and shipping ‘em to the stores.</p>
-        <p>We know how to get into client’s shoes and have “insider” perspective.</p></HelloBody>
-    </Hello>
-    <Products>
-      <ProductsBody>You can trust us your ideas, and we’ll be happy to deliver your quick prototype, MVP, or&nbsp;polished&nbsp;product.</ProductsBody>
-      <ProductsStrong>We love <br/>
-        making products.</ProductsStrong>
-    </Products>
-  </Container>
-
+    <Container>
+      <FitText compressor={4}>
+      <Hello>
+        <HelloStrong>Hello,</HelloStrong>
+        <HelloBody><p>Argh is a salted crew of digital makers with experience in building products and shipping ‘em to the stores.</p>
+          <p>We know how to get into client’s shoes and have “insider” perspective.</p></HelloBody>
+      </Hello>
+      </FitText>
+      <FitText compressor={4}>
+      <Products>
+        <ProductsBody>You can trust us your ideas, and we’ll be happy to deliver your quick prototype, MVP, or&nbsp;polished&nbsp;product.</ProductsBody>
+        <ProductsStrong>We love <br/>
+          making products.</ProductsStrong>
+      </Products>
+      </FitText>
+    </Container>
 
 About.PropTypes = {
 

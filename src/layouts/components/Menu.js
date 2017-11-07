@@ -14,23 +14,23 @@ const Item = styled.li`
   display: inline-block;
   margin: 0;
 `
-const NavLink = styled(Link)`
+const NavLink = styled.div`
   font-size: ${(props) => props.large ? '1.25em' : '1em'};
-  font-weight: 300;
-  color: inherit;
+  font-weight: 100;
+  color: #6B6B6B;
   display: inline-block;
   padding: 0.5em 1em;
   text-transform: uppercase;
   text-decoration: none;
-  &:hover {
-    text-decoration: underline; 
-  }
+  // &:hover {
+  //   text-decoration: underline; 
+  // }
 `
 
 const Menu = ({items, large}) =>
   <Container>
     {items.map((item) =>
-      <Item><NavLink to={item.uri} large={large}>{item.title}</NavLink></Item>
+      <Item><NavLink large={large}>{item.title}</NavLink></Item>
     )}
   </Container>
 

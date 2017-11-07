@@ -2,29 +2,24 @@ import React from 'react'
 import styled from 'styled-components'
 import PropTypes from 'prop-types'
 import FitText from 'react-fittext'
-import SvgLogo from './Logo'
+import PngLogo from './Logopng'
 import Contact from './Contact'
 
-const Logo = styled(SvgLogo)`
-  fill: hotpink;
-  // fill: #EC098D;
-  // fill: white;
-  // padding: 4vw;
-  // background-image: linear-gradient(-180deg, #FF9292 0%, #EC098D 100%);
+const Logo = styled(PngLogo)`
   width: 100%;
   height: auto;
 `
 const Tagline = styled.div`
   margin: 1em auto 0.2em;
+  color: #6B6B6B;
   line-height: 1;
-  font-weight: 300;
+  font-weight: 100;
   text-transform: uppercase;
 `
 
 const Container = styled.div`
-  width: 75vw;
+  max-width: 1100px;
   margin: 0 auto;
-  margin-top: 5vw;
   text-align: center;
   box-sizing: border-box;
 `
@@ -34,7 +29,7 @@ const Hero = () =>
     <Logo />
     <FitText compressor={2}>
       <Tagline>
-          We do things on the internets,<br/>we know all the right moves
+          We do things on the internets<br/>We know all the right moves
       </Tagline>
     </FitText>
       <Contact />

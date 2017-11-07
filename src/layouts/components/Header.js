@@ -5,8 +5,10 @@ import FitText from 'react-fittext'
 
 
 const Container = styled.div`
-  margin-top: 2em;
-  margin-bottom: 1.6em;
+  padding-top: 2em;
+  padding-bottom: 1.6em;
+  max-width: 1100px;
+  margin: 0 auto;
 `
 const menuItems = [
   {
@@ -28,7 +30,7 @@ const menuItems = [
 ]
 
 const Header = () =>
-  <FitText compressor={7}>
+  <FitText compressor={5}>
     <Container>
         <Menu items={menuItems} large />
     </Container>
