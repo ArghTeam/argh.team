@@ -36,8 +36,15 @@ const Link = styled.a`
 const Contact = () =>
 
       <Container className="vcard">
-        <Item><Link className='url' href="https://argh.team"><span className="org">Argh.team&nbsp;OÜ</span>, <span className="address">Sepapaja 6, Tallinn 15551, Estonia</span></Link></Item>
-        <Item><IconEmail/> <Link className='email' href="mailto:hello@argh.team">welcome@argh.team</Link></Item>
+        <Item><Link className='url' href='https://argh.team'><span className='org'>Argh.team&nbsp;OÜ</span>,
+          <span className='adr'>
+            <span className='street-address'> Sepapaja 6</span>,
+            <span className='locality'> Tallinn</span>
+            <span className='postal-code'> 15551</span>,
+            <span className='country-name'> Estonia</span>
+          </span>
+        </Link></Item>
+        <Item><IconEmail/> <Link className='email' href="mailto:welcome@argh.team">welcome@argh.team</Link></Item>
       </Container>
 
 Contact.PropTypes = {

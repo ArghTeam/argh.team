@@ -6,6 +6,7 @@ import styled from 'styled-components'
 import Header from './components/Header'
 import Hero from './components/Hero'
 import About from  './components/About'
+import socialImage from './ArghOG.png'
 
 const Body = styled.div`
   margin: 0 auto;
@@ -25,10 +26,16 @@ const TemplateWrapper = ({
 }) => (
     <Root>
       <Helmet
-        title="Argh Team — web apps, chat bots, micro services"
+        title="Argh.team — web apps, browser extensions, chat bots, micro services"
         meta={[
-          { name: 'description', content: 'Argh is a team with a big passion for crafting the web'},
+          { name: 'description', content: 'A team with a big passion for crafting the web'},
           { name: 'keywords', content: 'web, app, chat, bot, micro service' },
+          { property: 'og:title', content: 'Argh.team — web apps, browser extensions, chat bots, micro services'},
+          { property: 'og:type', content: 'website'},
+          { property: 'og:url', content: 'https://argh.team/'},
+          { property: 'og:image', content: `https://argh.team${socialImage}`},
+          { property: 'og:image:width', content: `828`},
+          { property: 'og:image:height', content: `381`}
         ]}
       />
       <Header />
