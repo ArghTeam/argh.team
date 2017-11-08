@@ -30,12 +30,12 @@ const NavLink = styled.div`
 const Menu = ({items, large}) =>
   <Container>
     {items.map((item) =>
-      <Item><NavLink large={large}>{item.title}</NavLink></Item>
+      <Item key={items.indexOf(item)}><NavLink large={large}>{item.title}</NavLink></Item>
     )}
   </Container>
 
 Menu.propTypes = {
-  items: PropTypes.object.isRequired,
+  items: PropTypes.array.isRequired,
   large: PropTypes.bool
 }
 
