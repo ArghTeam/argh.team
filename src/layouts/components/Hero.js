@@ -3,6 +3,7 @@ import styled from 'styled-components'
 import PropTypes from 'prop-types'
 import FitText from 'react-fittext'
 import PngLogo from './Logopng'
+import Contact from './Contact'
 
 const Logo = styled(PngLogo)`
   width: 100%;
@@ -31,6 +32,7 @@ const Hero = () =>
           We do things on the internets<br/>We know all the right moves
       </Tagline>
     </FitText>
+      <Contact />
   </Container>
 
 

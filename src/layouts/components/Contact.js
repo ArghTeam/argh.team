@@ -7,8 +7,8 @@ import {Skype, Email} from './Icons'
 const iconSize = '1.2em'
 
 const Container = styled.div`
-  display: flex;
-  padding-bottom: 1em;
+  display: inline-flex;
+  margin: 1em auto;
   flex-wrap: wrap;
   justify-content: center;
 `
