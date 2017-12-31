@@ -1,12 +1,16 @@
 {
   "assetsByChunkName": {
-    "page-component---src-pages-index-js": [
-      "page-component---src-pages-index-js-86483a620a00600059be.js",
-      "page-component---src-pages-index-js-86483a620a00600059be.js.map"
+    "component---src-pages-index-js": [
+      "component---src-pages-index-js-4de036b7fc4e26c86a08.js",
+      "component---src-pages-index-js-4de036b7fc4e26c86a08.js.map"
     ],
-    "page-component---src-pages-404-js": [
-      "page-component---src-pages-404-js-f68e3df0986f36c07464.js",
-      "page-component---src-pages-404-js-f68e3df0986f36c07464.js.map"
+    "path---": [
+      "path----557518bd178906f8d58a.js",
+      "path----557518bd178906f8d58a.js.map"
+    ],
+    "component---src-layouts-index-js": [
+      "component---src-layouts-index-js-18da91da6a5f8d2b24b7.js",
+      "component---src-layouts-index-js-18da91da6a5f8d2b24b7.js.map"
     ],
     "path---page-2": [
       "path---page-2-a0e39f21c11f6a62c5ab.js",
@@ -16,29 +20,29 @@
       "path---index-a0e39f21c11f6a62c5ab.js",
       "path---index-a0e39f21c11f6a62c5ab.js.map"
     ],
+    "component---src-pages-404-js": [
+      "component---src-pages-404-js-4503918ea3a16cfcdb75.js",
+      "component---src-pages-404-js-4503918ea3a16cfcdb75.js.map"
+    ],
     "commons": [
-      "commons-601ca9bc7f8941dc6f28.js",
-      "commons-601ca9bc7f8941dc6f28.js.map"
+      "commons-f1ef510847f79fa0a799.js",
+      "commons-f1ef510847f79fa0a799.js.map"
     ],
     "path---404-html": [
       "path---404-html-a0e39f21c11f6a62c5ab.js",
       "path---404-html-a0e39f21c11f6a62c5ab.js.map"
     ],
-    "page-component---src-pages-page-2-js": [
-      "page-component---src-pages-page-2-js-c925eb8b3d9caee8cdd6.js",
-      "page-component---src-pages-page-2-js-c925eb8b3d9caee8cdd6.js.map"
+    "component---src-pages-page-2-js": [
+      "component---src-pages-page-2-js-f59672f4b6fba2240a68.js",
+      "component---src-pages-page-2-js-f59672f4b6fba2240a68.js.map"
     ],
     "app": [
-      "app-e9ee15d383f06e490e0c.js",
-      "app-e9ee15d383f06e490e0c.js.map"
+      "app-93bdcd508a85452ab26b.js",
+      "app-93bdcd508a85452ab26b.js.map"
     ],
     "path---404": [
       "path---404-a0e39f21c11f6a62c5ab.js",
       "path---404-a0e39f21c11f6a62c5ab.js.map"
-    ],
-    "layout-component---index": [
-      "layout-component---index-ef47e70b0ed991a142a9.js",
-      "layout-component---index-ef47e70b0ed991a142a9.js.map"
     ]
   }
 }
