@@ -19,7 +19,8 @@
   "license": "MIT",
   "main": "n/a",
   "scripts": {
-    "deploy": "rm -rf public/*.* && gatsby build --prefix-paths && gh-pages -d public",
+    "deploy": "NODE_ENV=production && rm -rf public/*.* && gatsby build --prefix-paths && cd public && rsync -r -e ssh ./ deployer@balder.cloud.argh.team:apps/argh/landing && cd ..",
+    "deploy-gh": "rm -rf public/*.* && gatsby build --prefix-paths && gh-pages -d public",
     "build": "gatsby build",
     "develop": "gatsby develop",
     "format": "prettier --trailing-comma es5 --no-semi --single-quote --write 'src/**/*.js'",
