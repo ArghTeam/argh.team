@@ -26,11 +26,11 @@ const TemplateWrapper = ({
 }) => (
     <Root>
       <Helmet
-        title="Argh.team — web apps, browser extensions, chat bots, micro services"
+        title="argh.team — affiliate marketing solutions, web apps, browser extensions, chat bots, micro services"
         meta={[
           { name: 'description', content: 'A team with a big passion for crafting the web'},
-          { name: 'keywords', content: 'web, app, chat, bot, micro service' },
-          { property: 'og:title', content: 'Argh.team — web apps, browser extensions, chat bots, micro services'},
+          { name: 'keywords', content: 'affiliate, marketing, applications, developemnt, web, app, chat, bot, micro service' },
+          { property: 'og:title', content: 'argh.team — affiliate marketing solutions, web apps, browser extensions, chat bots, micro services'},
           { property: 'og:type', content: 'website'},
           { property: 'og:url', content: 'https://argh.team/'},
           { property: 'og:image', content: `https://argh.team${socialImage}`},
