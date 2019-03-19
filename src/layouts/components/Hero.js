@@ -22,6 +22,7 @@ const Container = styled.div`
   margin: 0 auto;
   text-align: center;
   box-sizing: border-box;
+  padding: 0 6%;
 `
 
 const Hero = () =>

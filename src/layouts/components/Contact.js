@@ -18,6 +18,7 @@ const Item = styled.div`
   font-weight: 300;
   display: flex;
   align-items: center;
+  text-align: center;
 `
 const IconSkype = styled(Skype)`
   width: ${iconSize};
@@ -44,7 +45,7 @@ const Contact = () =>
             <span className='country-name'> Estonia</span>
           </span>
         </Link></Item>
-        <Item><IconEmail/> <Link className='email' href="mailto:welcome@argh.team">welcome@argh.team</Link></Item>
+        <Item><IconEmail/>&nbsp;&nbsp;<Link className='email' href="mailto:welcome@argh.team">welcome@argh.team</Link></Item>
       </Container>
 
 Contact.PropTypes = {
